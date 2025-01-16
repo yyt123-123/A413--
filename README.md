@@ -10,6 +10,8 @@
 
 - [无源蜂鸣器发出不同音调](https://blog.csdn.net/Coin_Collecter/article/details/134907957?sharetype=blog&shareId=134907957&sharerefer=APP&sharesource=2401_87972226&sharefrom=link)
 
+![微信图片_20250116115321](https://github.com/user-attachments/assets/0d435d3e-dcca-4e48-a0b1-13bdeb7f830f)
+
 - ![不同音调所对应的不同频率](![](https://github.com/user-attachments/assets/4a439fe4-2ea0-40ac-83be-e4f8be2e05f6))
 
 - 考虑到无源蜂鸣器音质太差，我们改用了单片机-->LM386-->扬声器来实现方式，软件逻辑并不改变
@@ -17,6 +19,7 @@
 **进度安排** :clipboard:
 
 |时间节点|任务|负责人|
+|:-------:|:---------------------------------------------------:|:-----:|
 |1.6~1.10|进行对设计方案的思考，大体确定小目标|全体成员|
 |1.10~1.12|进行对无源蜂鸣器，触控板软件学习|软件成员|
 |1.10~1.15|进行系统板，触控板，降压模块，驱动板等学习并进行设计绘制|硬件成员|
