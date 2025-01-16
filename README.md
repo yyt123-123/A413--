@@ -1,11 +1,11 @@
 #电子乐器
-**小目标** :joy:
+##**小目标** :joy:
 ---
 - 完成电子乐器演奏功能的实现
 
 - 能够对乐器进行变调和调节音量
 ---
-**需要用到哪些知识** :+1:
+##**需要用到哪些知识** :+1:
 - [电容感应原理](https://www.bilibili.com/video/BV1JT411W7yK/?spm_id_from=333.337.search-card.all.click&vd_source=66d46cac70b159a46fcaf83b186b2c78)
 
 - [无源蜂鸣器发出不同音调](https://blog.csdn.net/Coin_Collecter/article/details/134907957?sharetype=blog&shareId=134907957&sharerefer=APP&sharesource=2401_87972226&sharefrom=link)
@@ -14,7 +14,7 @@
 
 - 考虑到无源蜂鸣器音质太差，我们改用了单片机-->LM386-->扬声器来实现方式，软件逻辑并不改变
 ---
-**进度安排** :clipboard:
+##**进度安排** :clipboard:
 
 |时间节点|任务|负责人|
 |:-------:|:---------------------------------------------------:|:-----:|
