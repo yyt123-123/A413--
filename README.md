@@ -10,7 +10,7 @@
 
 - [无源蜂鸣器发出不同音调](https://blog.csdn.net/Coin_Collecter/article/details/134907957?sharetype=blog&shareId=134907957&sharerefer=APP&sharesource=2401_87972226&sharefrom=link)
 
-- ![不同音调所对应的不同频率](![微信图片_20250116115321](https://github.com/user-attachments/assets/4a439fe4-2ea0-40ac-83be-e4f8be2e05f6))
+- ![不同音调所对应的不同频率](![](https://github.com/user-attachments/assets/4a439fe4-2ea0-40ac-83be-e4f8be2e05f6))
 
 - 考虑到无源蜂鸣器音质太差，我们改用了单片机-->LM386-->扬声器来实现方式，软件逻辑并不改变
 ---
