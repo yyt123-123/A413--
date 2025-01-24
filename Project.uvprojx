@@ -729,6 +729,11 @@
               <FileType>5</FileType>
               <FilePath>.\Hardware\music.h</FilePath>
             </File>
+            <File>
+              <FileName>Music_Def.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\Music_Def.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

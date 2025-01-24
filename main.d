@@ -34,3 +34,4 @@
 .\main.o: .\Hardware\Key.h
 .\main.o: .\Hardware\PWM.h
 .\main.o: .\Hardware\music.h
+.\main.o: .\Hardware\Music_Def.h

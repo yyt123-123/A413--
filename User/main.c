@@ -5,34 +5,9 @@
 #include "Key.h"
 #include "PWM.h"
 #include "music.h"
+#include "Music_Def.h"
 
-//低音区
-#define Do       Low_Do()
-#define Re       Low_Re()
-#define Mi       Low_Mi()
-#define Fa       Low_Fa()
-#define Sol      Low_Sol()
-#define La       Low_La()
-#define Xi       Low_Xi()
 
-//中音区
-#define Do1      Mid_Do()
-#define Re1      Mid_Re()
-#define Mi1      Mid_Mi()
-#define Fa1      Mid_Fa()
-#define Sol1     Mid_Sol()
-#define La1      Mid_La()
-#define Xi1      Mid_Xi()
-
-//高音区
-#define Do2      High_Do()
-#define Re2      High_Re()
-#define Mi2      High_Mi()
-#define Fa2      High_Fa()
-#define Sol2     High_Sol()
-#define La2      High_La()
-#define Xi2      High_Xi()
-#define S        Slience()
 int main(void)
 {
     OLED_Init();
@@ -40,12 +15,26 @@ int main(void)
 	Key_Init();
 	PWM_Init();
 	music_Init();
-	
-	
 	OLED_ShowString(1, 1, "Angle:");
     while(1)
     {
-		Music();
+		if(RB7 == 1){Do;}
+		if(RB6 == 1){Re;}
+		if(RB5 == 1){Mi;}
+		if(RB4 == 1){Fa;}
+		if(RB3 == 1){Sol;}
+		if(RA15 == 1){La;}
+		if(RA12 == 1){Xi;}
+		if(RA11 == 1){Do1;}
+		if(RA10 == 1){Re1;}
+		if(RB10 == 1){Mi1;}
+		if(RB1 == 1){Fa1;}
+		if(RB0 == 1){Sol1;}
+		if(RA7 == 1){La1;}
+		if(RA6 == 1){Xi1;}
+		if(RA5 == 1){Do2;}
+		if(RA4 == 1){Re2;}
+		if(RA3 == 1){Mi2;}
     }
 }
 

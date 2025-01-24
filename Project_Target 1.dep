@@ -934,6 +934,7 @@ I (.\Library\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Library\misc.h)(0x4D783BB4)
 I (.\Hardware\PWM.h)(0x6784DE8A)
 F (.\Hardware\music.h)(0x67851E93)()
+F (.\Hardware\Music_Def.h)(0x6793CE38)()
 F (.\Hardware\OLED.c)(0x6703BBF4)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware-I"D:\keil5 pack\Keil\STM32F1xx_DFP\2.4.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\oled.o --omf_browse .\oled.crf --depend .\oled.d)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
@@ -964,7 +965,7 @@ I (.\Library\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Library\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Library\misc.h)(0x4D783BB4)
 I (Hardware\OLED_Font.h)(0x6725EA72)
-F (.\User\main.c)(0x67852358)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware-I"D:\keil5 pack\Keil\STM32F1xx_DFP\2.4.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (.\User\main.c)(0x6793CFE5)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware-I"D:\keil5 pack\Keil\STM32F1xx_DFP\2.4.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\main.o --omf_browse .\main.crf --depend .\main.d)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
 I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
@@ -999,6 +1000,7 @@ I (.\Hardware\Servo.h)(0x67371E0D)
 I (.\Hardware\Key.h)(0x6725C56D)
 I (.\Hardware\PWM.h)(0x6784DE8A)
 I (.\Hardware\music.h)(0x67851E93)
+I (.\Hardware\Music_Def.h)(0x6793CE38)
 F (.\User\stm32f10x_conf.h)(0x4D99A59E)()
 F (.\User\stm32f10x_it.c)(0x4D99A59E)(--gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware-I"D:\keil5 pack\Keil\STM32F1xx_DFP\2.4.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_it.o --omf_browse .\stm32f10x_it.crf --depend .\stm32f10x_it.d)
 I (User\stm32f10x_it.h)(0x4D99A59E)
